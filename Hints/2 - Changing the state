@@ -1,0 +1,9 @@
+setGameRunning has already been declared, so you just need to make it get invoked whenever the user clicks on the button (a topic covered in the first hint). 
+
+The new value should be the opposite of the previous value. You can access the current value directly via the gameRunning state, and you can flip a boolean value to its opposite value by using the logical not operator (an exclamation mark !). For example:
+
+    let exampleValue = true 
+
+    exampleValue = !exampleValue 
+
+exampleValue now equals false. 
